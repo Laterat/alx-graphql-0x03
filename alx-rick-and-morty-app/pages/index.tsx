@@ -4,6 +4,8 @@ import { EpisodeProps } from "@/interfaces"
 import EpisodeCard from "@/components/common/EpisodeCard"
 import { useEffect, useState } from "react"
 
+import ErrorBoundary from '@/components/ErrorBoundary';
+import ErrorProneComponent from '@/components/ErrorProneComponent';
 
 
 const Home: React.FC = () => {
@@ -61,6 +63,12 @@ const Home: React.FC = () => {
           </button>
         </div>
       </main>
+
+     <ErrorBoundary>
+      <ErrorProneComponent />
+    </ErrorBoundary>
+
+      
 
       {/* Footer */}
       <footer className="bg-[#4CA1AF] text-white py-4 text-center shadow-md">

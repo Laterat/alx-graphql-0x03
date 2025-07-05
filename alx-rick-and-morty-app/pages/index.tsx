@@ -66,7 +66,7 @@ const Home: React.FC = () => {
 
      <ErrorBoundary>
       <ErrorProneComponent />
-    </ErrorBoundary>
+    </ErrorBoundary> 
 
       
 

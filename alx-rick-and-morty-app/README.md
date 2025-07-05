@@ -1,31 +1,16 @@
 # ALX Rick and Morty App
 
-This project demonstrates how to apply GraphQL in a React application using **Next.js**, **Apollo Client**, and the **Rick and Morty GraphQL API**. It is part of the `alx-graphql-0x01` learning series.
+## Objectives: Learn to query the Rick and Morty GraphQL endpoint to retrieve data about episodes.
 
----
+## Instructions:
 
-## 🎯 Objectives
+Duplicate alx-graphql-0x01 to alx-graphql-0x02
+Change directory to alx-rick-and-morty-app
 
-To kickstart the development of a Rick and Morty web application by:
+### 1. Create an empty directory named: interfaces under the root directory
 
-- Setting up a modern React project with **Next.js** and **TypeScript**
-- Adding **Tailwind CSS** for styling
-- Integrating **GraphQL** using **Apollo Client**
-- Connecting to the [Rick and Morty GraphQL API](https://rickandmortyapi.com/graphql)
+Create an empty file name: index.ts under the interfaces directory
 
----
+### 2. Open your index.tsx file located under pages directory
 
-## 🛠️ Setup Instructions
-
-### 1. Create the Project
-
-```bash
-npx create-next-app@latest alx-rick-and-morty-app --typescript
-cd alx-rick-and-morty-app
-```
-
-### 2. Install Dependencies
-
-npm install
-npm install @apollo/client graphql
-npm install @types/graphql
+### 3. Create the following file components/common/EpisodeCard.tsx
